@@ -1,0 +1,13 @@
+<title>What To Do &#8211; {{ page.title | escape }}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="Description" content="What to Do is the official tourist guide of the Vanuatu Tourism Office.">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="transparent"/>
+<link rel="manifest" href="manifest.json">
+{%- if page.title == 'Map'-%}
+<link href="assets/styles/style.map.min.css" rel="stylesheet" type="text/css">
+{%- else -%}
+<link href="assets/styles/style.min.css" rel="stylesheet" type="text/css">
+{%- endif-%}

@@ -1,0 +1,214 @@
+# Jekyll Template by Stanley Wai
+
+title: What To Do Vanuatu
+email: app@whattodo.vu
+description: >- # this means to ignore newlines until "baseurl:"
+  What to Do Vanuatu is Vanuatu’s official
+  tourism guide app. It’s the most comprehensive
+  directory of reputable operators for things
+  to do, sights to see and places to eat and shop.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+facebook_username:  whattodo.vu
+
+permalink: /:categories/:title:output_ext
+
+exclude:
+ - Gemfile
+ - Gemfile.lock
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-maps
+
+# Compressed
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
+
+#Collections
+collections:
+  dining:
+    output: true
+    permalink: /dining_:title:output_ext
+  fids:
+    output: true
+    permalink: /fids_:title:output_ext
+  health:
+    output: true
+    permalink: /health_:title:output_ext
+  map:
+    output: true
+    permalink: /map_:title:output_ext
+  shopping:
+    output: true
+    permalink: /shopping_:title:output_ext
+  tours:
+    output: true
+    permalink: /tours_:title:output_ext
+#Dining Collection:
+  dining_bars_bistros:
+    output: true
+    permalink: /dining_bars_bistros_:title:output_ext
+  dining_cafes:
+    output: true
+    permalink: /dining_cafes_:title:output_ext
+  dining_chinese:
+    output: true
+    permalink: /dining_chinese_:title:output_ext
+  dining_curry_house:
+    output: true
+    permalink: /dining_curry_house_:title:output_ext
+  dining_finedining_resortdining:
+    output: true
+    permalink: /dining_finedining_resortdining_:title:output_ext
+  dining_fish_chips:
+    output: true
+    permalink: /dining_fish_chips_:title:output_ext
+  dining_french:
+    output: true
+    permalink: /dining_french_:title:output_ext
+  dining_international:
+    output: true
+    permalink: /dining_international_:title:output_ext
+  dining_japanese:
+    output: true
+    permalink: /dining_japanese_:title:output_ext
+  dining_philipino:
+    output: true
+    permalink: /dining_philipino_:title:output_ext
+  dining_steak_house:
+    output: true
+    permalink: /dining_steak_house_:title:output_ext
+  dining_takeway:
+    output: true
+    permalink: /dining_takeway_:title:output_ext
+  dining_thai:
+    output: true
+    permalink: /dining_thai_:title:output_ext
+  dining_vietnamese:
+    output: true
+    permalink: /dining_vietnamese_:title:output_ext
+#Health Collection:
+  health_body_fitness_gym:
+    output: true
+    permalink: /health_body_fitness_gym_:title:output_ext
+  health_hair_dresser_beauty_salon:
+    output: true
+    permalink: /health_hair_dresser_beauty_salon_:title:output_ext
+  health_spa_massage:
+    output: true
+    permalink: /health_spa_massage_:title:output_ext
+  health_tattoo_shop:
+    output: true
+    permalink: /health_tattoo_shop_:title:output_ext
+#Shopping Collection:
+  shopping_boutique:
+    output: true
+    permalink: /shopping_boutique_:title:output_ext
+  shopping_duty_free:
+    output: true
+    permalink: /shopping_duty_free_:title:output_ext
+  shopping_liquor_shop:
+    output: true
+    permalink: /shopping_liquor_shop_:title:output_ext
+  shopping_market:
+    output: true
+    permalink: /shopping_market_:title:output_ext
+  shopping_phamarcy:
+    output: true
+    permalink: /shopping_phamarcy_:title:output_ext
+  shopping_supermarkets:
+    output: true
+    permalink: /shopping_supermarkets_:title:output_ext
+#Tours Collection:
+  tours_buggy_tours:
+    output: true
+    permalink: /tours_buggy_tours_:title:output_ext
+  tours_car_hire:
+    output: true
+    permalink: /tours_car_hire_:title:output_ext
+  tours_culture_tours:
+    output: true
+    permalink: /tours_culture_tours_:title:output_ext
+  tours_cycling:
+    output: true
+    permalink: /tours_cycling_:title:output_ext
+  tours_day_cruise:
+    output: true
+    permalink: /tours_day_cruise_:title:output_ext
+  tours_eco_tours:
+    output: true
+    permalink: /tours_eco_tours_:title:output_ext
+  tours_fishing:
+    output: true
+    permalink: /tours_fishing_:title:output_ext
+  tours_glass_bottom_boat:
+    output: true
+    permalink: /tours_glass_bottom_boat_:title:output_ext
+  tours_helicopter_tours:
+    output: true
+    permalink: /tours_helicopter_tours_:title:output_ext
+  tours_horse_riding:
+    output: true
+    permalink: /tours_horse_riding_:title:output_ext
+  tours_island_day_tours:
+    output: true
+    permalink: /tours_island_day_tours_:title:output_ext
+  tours_jet_boat:
+    output: true
+    permalink: /tours_jet_boat_:title:output_ext
+  tours_jet_ski:
+    output: true
+    permalink: /tours_jet_ski_:title:output_ext
+  tours_jet_surf:
+    output: true
+    permalink: /tours_jet_surf_:title:output_ext
+  tours_kayaking:
+    output: true
+    permalink: /tours_kayaking_:title:output_ext
+  tours_parasailing:
+    output: true
+    permalink: /tours_parasailing_:title:output_ext
+  tours_quad_tours:
+    output: true
+    permalink: /tours_quad_tours_:title:output_ext
+  tours_scuba_diving:
+    output: true
+    permalink: /tours_scuba_diving_:title:output_ext
+  tours_snorkelling:
+    output: true
+    permalink: /tours_snorkelling_:title:output_ext
+  tours_underwater_post_office:
+    output: true
+    permalink: /tours_underwater_post_office_:title:output_ext
+  tours_underwater_tours:
+    output: true
+    permalink: /tours_underwater_tours_:title:output_ext
+  tours_volcano_flight_tours:
+    output: true
+    permalink: /tours_volcano_flight_tours_:title:output_ext
+  tours_walking:
+    output: true
+    permalink: /tours_walking_:title:output_ext
+  tours_waterfall_tours:
+    output: true
+    permalink: /tours_waterfall_tours_:title:output_ext
+  tours_zego:
+    output: true
+    permalink: /tours_zego_:title:output_ext
+  tours_zipline:
+    output: true
+    permalink: /tours_zipline_:title:output_ext
+  tours_zorb_ride:
+    output: true
+    permalink: /tours_zorb_ride_:title:output_ext

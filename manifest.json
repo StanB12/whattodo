@@ -1,0 +1,20 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "What To Do ",
+    "display": "standalone",
+    "short_name": "whattodo",
+    "theme_color": "transparent",
+    "description": "THE OFFICIAL GUIDE OF THE VANUATU TOURISM OFFICE",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "assets\/images\/res\/167u34na-0ok4-2nd7-cb3n-1c789mdgy22.webPlatform.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

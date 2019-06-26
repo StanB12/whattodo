@@ -1,0 +1,4 @@
+---
+layout: offline
+title: Offline
+---

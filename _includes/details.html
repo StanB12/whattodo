@@ -1,0 +1,43 @@
+<div class="content-section">
+    <em class="left-text"><a href="{{ page.collection }}.html">&larr; {{ page.section | upcase }}</a></em>
+    <h1 class="left-text" id="wide-dining">{{ page.title | upcase }}</h1>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 200">
+		<rect width="650" height="200" style="fill:#1c1c1c"/>
+	</svg>
+</div>
+
+<img src="assets/images/paid/main_{{ page.logo }}.jpg" class="responsive-image" alt="img">
+
+<div class="content">
+	<div class="decoration"></div>
+	<div class="container">
+		<h3>Location</h3>
+		<p>
+		{{ page.description }}
+		</p>
+		<div class="one-half">
+				<ul class="icon-list">
+						<li class="globe-list"><a href="map_{{ page.logo }}.html">Go to Map</a></li>
+				</ul>
+		</div>
+	</div>
+	<div class="decoration"></div>
+	<div class="container">
+		<h3>Overview</h3>
+		<p>
+		Ratings: {{ page.ratings }}
+		</p>
+	</div>
+	<div class="decoration hide-if-responsive"></div>
+	<div class="container no-bottom">
+		<h4>Contact Information</h4>
+		<p>
+		<strong>{{ page.title }}</strong><br>
+		 {{ page.address }}
+		</p>
+		<p>
+		<a href="tel:{{ page.phone | escape }}" class="contact-call">Phone: {{ page.phone }}</a>
+		<a href="mailto:{{ page.email | escape }}" class="contact-mail">Email: {{ page.email }}</a>
+		</p>
+	</div>
+</div>

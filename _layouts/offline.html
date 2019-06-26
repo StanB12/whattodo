@@ -1,0 +1,23 @@
+---
+layout: compress
+---
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+{% include header.html %}
+</head>
+<body>
+    <div id="preloader">
+        <div id="status">
+            <p class="center-text">
+                No Internet...
+                <em>Check you network settings!</em>
+            </p>
+        </div>
+    </div>
+    {% include navbar.html %}
+        {{content}}
+    {% include copyright.html %}
+    {% include footer.html %}
+</body>
+</html>
