@@ -14,7 +14,7 @@ title: International
 	<img class="responsive-image" src="assets/images/fids/arrival.jpg" alt="img">
 </div>
 <div class="container no-bottom">
-	<iframe src="https://dailypost.com.vu:8080/touch1.html?:embed=yes&:refresh=yes" width="100%" height="350px" frameBorder="0" scrolling="no" title="International Arrivals">
+	<iframe src="" width="100%" height="350px" frameBorder="0" scrolling="no" title="International Arrivals">
 	</iframe>
 </div>
 <div class="content-section" id="fids-departures">
@@ -22,7 +22,7 @@ title: International
 	<img class="responsive-image" src="assets/images/fids/departure.jpg" alt="img">
 </div>
 <div class="container no-bottom">
-	<iframe src="https://dailypost.com.vu:8080/touch2.html?:embed=yes&:refresh=yes" width="100%" height="350px" frameBorder="0" scrolling="no" title="International Departures">
+	<iframe src="" width="100%" height="350px" frameBorder="0" scrolling="no" title="International Departures">
 	</iframe>
 	<div class="decoration"></div>
 </div>
