@@ -17,7 +17,7 @@ title: Domestic
 </div>
 
 <div class="container no-bottom">
-	<iframe src="https://dailypost.com.vu:8080/touch3.html?:embed=yes&:refresh=yes" width="100%" height="350px" frameBorder="0" scrolling="no" title="Domestic Arrivals">
+	<iframe src="" width="100%" height="350px" frameBorder="0" scrolling="no" title="Domestic Arrivals">
 	</iframe>
 </div>
 
@@ -27,7 +27,7 @@ title: Domestic
 </div>
 
 <div class="container no-bottom">
-	<iframe src="https://dailypost.com.vu:8080/touch4.html?:embed=yes&:refresh=yes" width="100%" height="350px" frameBorder="0" scrolling="no" title="Domestic Departures">
+	<iframe src="" width="100%" height="350px" frameBorder="0" scrolling="no" title="Domestic Departures">
 	</iframe>
 	<div class="decoration"></div>
 </div>
